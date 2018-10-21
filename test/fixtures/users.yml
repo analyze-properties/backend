@@ -1,0 +1,14 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one: 
+  email: testUser1@analyze-properties.com
+  # Used `SecureRandom.uuid` in Rails console to generates
+  jti: 3fc7f0b7-9cc7-4ea5-87d7-aac6f539bca1
+#
+two:
+  email: testUser2@analyze-properties.com
+  jti: eeb8701a-7ac0-46e2-be37-587c6f3db967
