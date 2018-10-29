@@ -1,0 +1,32 @@
+{
+  "name": "@analyze-properties/backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:analyze-properties/backend.git",
+  "author": "David Zukowski <david@zuko.me>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon bin/start",
+    "start:prod": "node bin/start"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "bracketSpacing": false,
+    "trailingComma": "es5"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "compression": "^1.7.3",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "faker": "^4.1.0",
+    "lodash": "^4.17.11",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5",
+    "prettier": "^1.14.3"
+  }
+}
